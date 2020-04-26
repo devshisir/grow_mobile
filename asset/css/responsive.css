@@ -1,0 +1,389 @@
+/* XL (laptop) Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+@media (min-width: 1200px) and (max-width: 1300px) {}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px){}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (max-width: 767px){}
+
+/*-- Phone Landscape --*/
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    #menuArea ul li {
+        display: inline-block;
+        margin-right: 0px;
+        width: 30%;
+    }
+    #menuArea ul {
+        padding-left: 0px;
+        text-align: center;
+    }
+    #menuArea ul li a{
+        font-weight: 600;
+        font-size: 14px;
+        width: auto;
+    }
+    #homeBanar .homeBanarContent h5 {
+        font-size: 20px;
+    }
+    #homeBanar .homeBanarContent h6 {
+        font-size: 20px;
+        margin-top: 4px;
+    }
+    #homeBanar .homeBanarContent p {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    #homeBanar .homeBanarContent h1 {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    #homeBanarImage img {
+        height: auto !important;
+    }
+    .container {
+        width: auto !important;
+    }
+    .showMobile{
+        display: block !important;
+    }
+    #banarBottomHome .banarBottomHomeContent h3 {
+        display: none;
+        font-size: 13px;
+    }
+    #banarBottomHome .banarBottomHomeContent .contentP p {
+        font-size: 11px;
+        line-height: 17px;
+    }
+    #banarBottomHome {
+        padding: 20px 0px 190px 0px;
+        /* clip-path: polygon(50% 0%, 100% 0, 100% 72%, 50% 54%, 0 71%, 0 0); */
+        clip-path: polygon(50% 0%, 100% 0, 100% 68%, 50% 54%, 0 67%, 0 0);
+    }
+    #banarBottomHome .banarBottomHomeContent .contentP a {
+        padding: 10px 37px;
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: 6px;
+    }
+    #homePageFooter .homePageFooterContent ul{
+        text-align: center;
+    }
+    #homePageFooter .homePageFooterContent ul li {
+        width: 29%;
+    }
+    #homePageFooter .homePageFooterContent ul li a img {
+        height: 21px;
+        width: 62px;
+    }
+    #homePageFooter .homePageFooterContent {
+        bottom: 29px;
+    }  
+    #homePageImage {
+        padding: 0px;
+        margin-top: -102px;
+    } 
+    #homePageImage .homePageImageItem img {
+        width: 62%;
+    } 
+    #aboutBanar{
+        display: none;
+    }
+    #aboutContent .aboutContentContent img {
+        height: auto;
+        margin-bottom: 40px;
+    }
+    #comonFooter .comonFooterContnt ul li {
+        margin: 0px 0px;
+        width: 24%;
+    }
+    #comonFooter .comonFooterContnt ul li a img {
+        height: 38px;
+        transition: 0.4s;
+    }
+    #comonFooter .comonFooterContnt {
+        bottom: 15px;
+    }
+    #comonFooter .comonFooterContnt h3 {
+        font-size: 12px;
+        margin-bottom: 23px;
+    }
+    #aboutContent .aboutContentContent h3 {
+        font-size: 27px;
+    }
+    #aboutContent .aboutContentContent p {
+        font-weight: 500;
+        font-size: 13px;
+        width: 100%;
+        margin-top: 13px;
+        line-height: 22px;
+    }
+    #contactContent .contactContentMain img {
+        height: 100%;
+        width: 100%;
+    }
+    #contactContent {
+        padding: 30px 0px;
+    }
+    #contactContent .contactContentMain .contactContentMainText h3 {
+        font-weight: 500;
+        font-size: 17px;
+        width: 100%;
+        line-height: 24px;
+    }
+    #contactContent .contactContentMain .contactContentMainText {
+        margin-top: 50px;
+    }
+    #contactContent .contactContentMain .contactContentMainText a {
+        padding: 12px 75px;
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    #comonFooter img {
+        height: auto;
+    }
+    #letstalkEmpty{
+        display: none;
+    }
+    #letsTalkForm {
+        padding: 50px 0px 50px 0px;
+    }
+    #letsTalkForm .letsTalkFormContent h3 {
+        font-size: 17px;
+    }
+    #letsTalkForm .letsTalkFormContent form input {
+        width: 87%;
+    }
+    #letsTalkForm .letsTalkFormContent form button {
+        padding: 11px 78px;
+        font-size: 12px;
+    }
+    #learnMoreBanar .learnMoreBanarContent h5 {
+        font-size: 20px;
+    }
+    #learnMoreBanar .learnMoreBanarContent h6 {
+        font-size: 20px;
+        margin-top: 4px;
+    }
+    #learnMoreBanar .learnMoreBanarContent p {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    #learmoreMain .learmoreMainItem img {
+        height: auto !important;
+        margin-bottom: 20px;
+    }
+    #learmoreMain .learmoreMainItem h3 {
+        font-size: 17px;
+        width: 100%;
+        line-height: 26px;
+    }
+    #learmoreMain .learmoreMainItem p {
+        font-size: 13px;
+        width: 100%;
+        margin-top: 10px;
+        line-height: 21px;
+    }
+}
+
+/* Extra small Device. */
+@media (max-width: 575px){
+    #menuArea ul li {
+        display: inline-block;
+        margin-right: 0px;
+        width: 30%;
+    }
+    #menuArea ul {
+        padding-left: 0px;
+        text-align: center;
+    }
+    #menuArea ul li a{
+        font-weight: 600;
+        font-size: 14px;
+        width: auto;
+    }
+    #homeBanar .homeBanarContent h5 {
+        font-size: 20px;
+    }
+    #homeBanar .homeBanarContent h6 {
+        font-size: 20px;
+        margin-top: 4px;
+    }
+    #homeBanar .homeBanarContent p {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    #homeBanar .homeBanarContent h1 {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    #homeBanarImage img {
+        height: auto !important;
+    }
+    .container {
+        width: auto !important;
+    }
+    .showMobile{
+        display: block !important;
+    }
+    #banarBottomHome .banarBottomHomeContent h3 {
+        display: none;
+        font-size: 13px;
+    }
+    #banarBottomHome .banarBottomHomeContent .contentP p {
+        font-size: 11px;
+        line-height: 17px;
+    }
+    #banarBottomHome {
+        padding: 20px 0px 190px 0px;
+        /* clip-path: polygon(50% 0%, 100% 0, 100% 72%, 50% 54%, 0 71%, 0 0); */
+        clip-path: polygon(50% 0%, 100% 0, 100% 68%, 50% 54%, 0 67%, 0 0);
+    }
+    #banarBottomHome .banarBottomHomeContent .contentP a {
+        padding: 10px 37px;
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: 6px;
+    }
+    #homePageFooter .homePageFooterContent ul{
+        text-align: center;
+    }
+    #homePageFooter .homePageFooterContent ul li {
+        width: 29%;
+    }
+    #homePageFooter .homePageFooterContent ul li a img {
+        height: 21px;
+        width: 62px;
+    }
+    #homePageFooter .homePageFooterContent {
+        bottom: 29px;
+    }  
+    #homePageImage {
+        padding: 0px;
+        margin-top: -102px;
+    } 
+    #homePageImage .homePageImageItem img {
+        width: 62%;
+    } 
+    #aboutBanar{
+        display: none;
+    }
+    #aboutContent .aboutContentContent img {
+        height: auto;
+        margin-bottom: 40px;
+    }
+    #comonFooter .comonFooterContnt ul li {
+        margin: 0px 0px;
+        width: 24%;
+    }
+    #comonFooter .comonFooterContnt ul li a img {
+        height: 38px;
+        transition: 0.4s;
+    }
+    #comonFooter .comonFooterContnt {
+        bottom: 15px;
+    }
+    #comonFooter .comonFooterContnt h3 {
+        font-size: 12px;
+        margin-bottom: 23px;
+    }
+    #aboutContent .aboutContentContent h3 {
+        font-size: 27px;
+    }
+    #aboutContent .aboutContentContent p {
+        font-weight: 500;
+        font-size: 13px;
+        width: 100%;
+        margin-top: 13px;
+        line-height: 22px;
+    }
+    #contactContent .contactContentMain img {
+        height: 100%;
+        width: 100%;
+    }
+    #contactContent {
+        padding: 30px 0px;
+    }
+    #contactContent .contactContentMain .contactContentMainText h3 {
+        font-weight: 500;
+        font-size: 17px;
+        width: 100%;
+        line-height: 24px;
+    }
+    #contactContent .contactContentMain .contactContentMainText {
+        margin-top: 50px;
+    }
+    #contactContent .contactContentMain .contactContentMainText a {
+        padding: 12px 75px;
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    #comonFooter img{
+        height: 149px;
+    }
+    #letstalkEmpty{
+        display: none;
+    }
+    #letsTalkForm {
+        padding: 50px 0px 50px 0px;
+    }
+    #letsTalkForm .letsTalkFormContent h3 {
+        font-size: 17px;
+    }
+    #letsTalkForm .letsTalkFormContent form input {
+        width: 87%;
+    }
+    #letsTalkForm .letsTalkFormContent form button {
+        padding: 11px 78px;
+        font-size: 12px;
+    }
+    #learnMoreBanar .learnMoreBanarContent h5 {
+        font-size: 20px;
+    }
+    #learnMoreBanar .learnMoreBanarContent h6 {
+        font-size: 20px;
+        margin-top: 4px;
+    }
+    #learnMoreBanar .learnMoreBanarContent p {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    #learmoreMain .learmoreMainItem img {
+        height: auto !important;
+        margin-bottom: 20px;
+    }
+    #learmoreMain .learmoreMainItem h3 {
+        font-size: 17px;
+        width: 100%;
+        line-height: 26px;
+    }
+    #learmoreMain .learmoreMainItem p {
+        font-size: 13px;
+        width: 100%;
+        margin-top: 10px;
+        line-height: 21px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
